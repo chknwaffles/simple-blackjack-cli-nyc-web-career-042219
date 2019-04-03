@@ -43,9 +43,9 @@ def hit?(total)
   if input == 'h'
     num = deal_card
   elsif input == 's'
-else
-  invalid_command
-end
+  else
+    invalid_command
+  end
   total
 end
 
